@@ -25,9 +25,47 @@ body {
     //border: 1px solid red;
 }
 
-.container .column-2{
-    height: 100%;
-    //background-color: white;
+.container .column-2 {
+    //border: 1px solid red;
+}
+
+.container .column-2 > div{
     display: block;
     //border: 1px solid red;
+}
+
+.column-2 > div {
+    color: white;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.text > :first-child, .text > :nth-child(2), :nth-child(4) {
+    padding-top: 20px;
+}
+
+.column-2 > div > :first-child {
+    
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.column-2 > div > :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.column-2 > div > :nth-child(3) {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.column-2 > div > :nth-child(3) > :first-child {
+    color: #12C6C6;
+    font-weight: 700;
+}
+
+.column-2 > div > :nth-child(4), :nth-child(5){
+    font-size: 11px;
 }
