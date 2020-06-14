@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.container .column-1{
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.container .column-2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
